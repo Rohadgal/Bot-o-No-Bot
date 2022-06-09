@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Comentarios : MonoBehaviour
 {
- private class usuario {
+ private class Usuario {
 	 public string comentario;
 	 public string usuario;
 	 public int seguidores;
 	 public int seguidos;
 	 public bool siTieneFoto;
 	 public bool siEsBot;
-	 public sprite ultimoComentario1, ultimoComentario2, ultimoComentario3;
-
+	 public Sprite ultimoComentario1, ultimoComentario2, ultimoComentario3;
+	 //Ya no moverle 
 
 
  }
