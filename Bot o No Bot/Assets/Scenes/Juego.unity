@@ -899,3 +899,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752844117}
   m_CullTransparentMesh: 1
+--- !u!1 &1763685848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763685850}
+  - component: {fileID: 1763685849}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1763685849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763685848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fee1f2d1a435bf4f85375eedbbbec42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  comentarios:
+  - comentario: AMLO APESTA
+    usuario: '@Gal '
+    seguidores: 123
+    seguidos: 128937
+    siTieneFoto: 1
+    siEsBot: 0
+    ultimoComentario1: {fileID: 21300000, guid: 2bd6c542757c3ff4a80dfdf46ca4008d, type: 3}
+    ultimoComentario2: {fileID: 21300000, guid: bafe4014cde308145bc482dd3bd86f9c, type: 3}
+    ultimoComentario3: {fileID: 21300000, guid: 71200647e02ca9e41a7762750b5f918a, type: 3}
+  - comentario: AMLO ES COOL
+    usuario: '@Lorenz'
+    seguidores: 123
+    seguidos: 5312
+    siTieneFoto: 1
+    siEsBot: 0
+    ultimoComentario1: {fileID: 21300000, guid: 5c785cb51c7beea4883473957f92694e, type: 3}
+    ultimoComentario2: {fileID: 21300000, guid: d7b03dd2d2d69304aac24cda70f6ad79, type: 3}
+    ultimoComentario3: {fileID: 21300000, guid: 909dea9223a05754eb6b33140c7feedd, type: 3}
+--- !u!4 &1763685850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763685848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 214.00769, y: 35.05574, z: -186.66841}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
