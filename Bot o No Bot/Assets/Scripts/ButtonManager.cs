@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
+    public GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,5 +38,17 @@ public class ButtonManager : MonoBehaviour
     public void Salir()
     {
         Application.Quit();
+    }
+
+    public void Bot()
+    {
+        int Bot = 1;
+        gameManager.ChecadorRespuesta(Bot);
+    }
+
+    public void NoBot()
+    {
+        int noBot = 0;
+        gameManager.ChecadorRespuesta(noBot);
     }
 }
