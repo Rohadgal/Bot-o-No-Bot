@@ -5,18 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public List<Usuario> comentarios = new List<Usuario>();
-    Usuario currentUsuario;
+    public Usuario currentUsuario;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Usuario nuevoUsuario = new Usuario();
-        //comentarios.Add(nuevoUsuario);
-        //RandomEleccion();
-        //ChecadorRespuesta();
-        //comentarios.RemoveAt(0);
-
-       Random.Range(0, comentarios.Count);
+        RandomEleccion();
     }
 
     // Update is called once per frame
