@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Comentarios : MonoBehaviour
 {
- private class Usuario {
+}
+
+[System.Serializable]
+ public class Usuario {
 	 public string comentario;
 	 public string usuario;
 	 public int seguidores;
@@ -16,4 +19,3 @@ public class Comentarios : MonoBehaviour
 
 
  }
-}
