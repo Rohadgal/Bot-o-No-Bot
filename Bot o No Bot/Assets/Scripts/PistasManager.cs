@@ -6,7 +6,7 @@ using TMPro;
 
 public class PistasManager : MonoBehaviour
 {
-    public TMP_Text textSiguiendo, textSeguidores;
+    public TMP_Text textSiguiendo, textSeguidores, nombreUsuario;
     public Image imagenComentario1, imagenComentario2, imagenComentario3, fotoDePerfil;
     public GameManager gameManager;
          
@@ -24,11 +24,12 @@ public class PistasManager : MonoBehaviour
 
     public void CambiarDatosPista()
     {
-        textSiguiendo.text = "Siguiendo " + gameManager.comentarios[0].seguidos.ToString();
-        textSeguidores.text = "Seguidores " + gameManager.comentarios[0].seguidores.ToString();
-        imagenComentario1.sprite = gameManager.comentarios[0].ultimoComentario1;
-        imagenComentario2.sprite = gameManager.comentarios[0].ultimoComentario2;
-        imagenComentario3.sprite = gameManager.comentarios[0].ultimoComentario3;
-        fotoDePerfil.sprite = gameManager.comentarios[0].fotoDePerfil;
+        nombreUsuario.text = gameManager.currentUsuario.usuario;
+        textSiguiendo.text = "Siguiendo " + gameManager.currentUsuario.seguidos.ToString();
+        textSeguidores.text = "Seguidores " + gameManager.currentUsuario.seguidores.ToString();
+        imagenComentario1.sprite = gameManager.currentUsuario.ultimoComentario1;
+        imagenComentario2.sprite = gameManager.currentUsuario.ultimoComentario2;
+        imagenComentario3.sprite = gameManager.currentUsuario.ultimoComentario3;
+        fotoDePerfil.sprite = gameManager.currentUsuario.fotoDePerfil;
     }
 }

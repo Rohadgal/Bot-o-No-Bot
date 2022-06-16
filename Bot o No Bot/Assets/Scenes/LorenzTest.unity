@@ -221,7 +221,7 @@ RectTransform:
   - {fileID: 300720461}
   - {fileID: 1195981638}
   m_Father: {fileID: 1336161948}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -330,7 +330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 370}
+  m_AnchoredPosition: {x: -0.00010692, y: 388}
   m_SizeDelta: {x: 375.683, y: 345.052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183750756
@@ -798,6 +798,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569055518}
   m_CullTransparentMesh: 1
+--- !u!1 &812638557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 812638558}
+  - component: {fileID: 812638560}
+  - component: {fileID: 812638559}
+  m_Layer: 5
+  m_Name: Nombre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &812638558
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812638557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1336161948}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 172}
+  m_SizeDelta: {x: 392.812, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &812638559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812638557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Usuario
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: dc6a1fa1387fb424c893e0bf8ef6a0ce, type: 2}
+  m_sharedMaterial: {fileID: 5785463032730524021, guid: dc6a1fa1387fb424c893e0bf8ef6a0ce, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &812638560
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812638557}
+  m_CullTransparentMesh: 1
 --- !u!1 &998176661
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +971,7 @@ MonoBehaviour:
     ultimoComentario1: {fileID: 21300000, guid: 2bd6c542757c3ff4a80dfdf46ca4008d, type: 3}
     ultimoComentario2: {fileID: 21300000, guid: bafe4014cde308145bc482dd3bd86f9c, type: 3}
     ultimoComentario3: {fileID: 21300000, guid: 71200647e02ca9e41a7762750b5f918a, type: 3}
+    fotoDePerfil: {fileID: 21300000, guid: aeab1fef8a360554fba60e2a89449a05, type: 3}
   - comentario: AMLO ES COOL
     usuario: '@Lorenz'
     seguidores: 123
@@ -846,6 +981,18 @@ MonoBehaviour:
     ultimoComentario1: {fileID: 21300000, guid: 5c785cb51c7beea4883473957f92694e, type: 3}
     ultimoComentario2: {fileID: 21300000, guid: d7b03dd2d2d69304aac24cda70f6ad79, type: 3}
     ultimoComentario3: {fileID: 21300000, guid: 909dea9223a05754eb6b33140c7feedd, type: 3}
+    fotoDePerfil: {fileID: 21300000, guid: f2e1c4c8969deaa43ab3924a73f78322, type: 3}
+  currentUsuario:
+    comentario: 
+    usuario: 
+    seguidores: 0
+    seguidos: 0
+    siTieneFoto: 0
+    siEsBot: 0
+    ultimoComentario1: {fileID: 0}
+    ultimoComentario2: {fileID: 0}
+    ultimoComentario3: {fileID: 0}
+    fotoDePerfil: {fileID: 0}
 --- !u!4 &998176663
 Transform:
   m_ObjectHideFlags: 0
@@ -854,7 +1001,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998176661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 214.00769, y: 35.05574, z: -186.66841}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1201,6 +1348,7 @@ RectTransform:
   m_Children:
   - {fileID: 1304612175}
   - {fileID: 183750755}
+  - {fileID: 812638558}
   - {fileID: 1872035241}
   - {fileID: 1483393543}
   - {fileID: 53682784}
@@ -1325,11 +1473,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1336161948}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000053406, y: 85}
+  m_AnchoredPosition: {x: 0, y: 42}
   m_SizeDelta: {x: 392.812, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1483393544
@@ -1545,9 +1693,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textSiguiendo: {fileID: 1483393544}
   textSeguidores: {fileID: 1872035242}
+  nombreUsuario: {fileID: 812638559}
   imagenComentario1: {fileID: 1195685355}
   imagenComentario2: {fileID: 2004446431}
   imagenComentario3: {fileID: 263243507}
+  fotoDePerfil: {fileID: 183750756}
   gameManager: {fileID: 998176662}
 --- !u!1 &1740334720
 GameObject:
@@ -1658,11 +1808,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1336161948}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000053406, y: 152}
+  m_AnchoredPosition: {x: 0, y: 108}
   m_SizeDelta: {x: 392.812, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872035242
