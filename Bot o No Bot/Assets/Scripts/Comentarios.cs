@@ -14,7 +14,7 @@ public class Comentarios : MonoBehaviour
 	 public int seguidos;
 	 public bool siTieneFoto;
 	 public bool siEsBot;
-	 public Sprite ultimoComentario1, ultimoComentario2, ultimoComentario3;
+	 public Sprite ultimoComentario1, ultimoComentario2, ultimoComentario3, fotoDePerfil;
 	 //Ya no moverle 
 
 
