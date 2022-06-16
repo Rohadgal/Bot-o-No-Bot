@@ -8,6 +8,10 @@ public class GameEnding : MonoBehaviour
     public float fadeDuration = 1f;
     public float displayImageDuration = 1f;
     public recorrido casillas;
+    public Transform target;
+    public Transform npctarget;
+    public float speed;
+    public float npcspeed;
     public GameObject player;
     public GameObject npc;
     public GameObject playerImage;
@@ -52,13 +56,15 @@ public class GameEnding : MonoBehaviour
         if (casillas.index == 6)
         {
             playerImage.SetActive(true);
-            casillas.playerMove.transform.position = casillas.Casillas[7].transform.position;          
+            float step = speed * Time.deltaTime;
+            casillas.playerMove.transform.position = Vector2.MoveTowards(casillas.playerMove.transform.position, target.position, step);
         }
 
         if (casillas.index2 == 6)
         {
             npcImage.SetActive(true);
-            casillas.npcMove.transform.position = casillas.Casillas[7].transform.position;
+            float npcstep = speed * Time.deltaTime;
+            casillas.npcMove.transform.position = Vector2.MoveTowards(casillas.npcMove.transform.position, target.position, npcstep);
         }
 
         if (playerWin)
