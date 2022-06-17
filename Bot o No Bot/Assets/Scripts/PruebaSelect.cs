@@ -7,7 +7,7 @@ public class PruebaSelect : MonoBehaviour
 {
     public GameManager gameManager;
     public Text siguiendo;
-    public Image perfil;
+    //public Image perfil;
     // Start is called before the first frame update
     void Start()
     {
