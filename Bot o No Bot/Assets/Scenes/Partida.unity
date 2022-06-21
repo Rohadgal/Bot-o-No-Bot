@@ -202,8 +202,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -470.00003, y: -86.03998}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -346.75, y: -28.02}
+  m_SizeDelta: {x: 343.83, y: 111.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129878023
 MonoBehaviour:
@@ -507,7 +507,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -805,7 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -816,7 +816,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -1661,8 +1661,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 184.02185, y: -34.50409}
-  m_SizeDelta: {x: 528.0437, y: 99.0082}
+  m_AnchoredPosition: {x: 341.511, y: 115.05}
+  m_SizeDelta: {x: 1032.687, y: 398.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720446294
 MonoBehaviour:
@@ -1677,7 +1677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1686,12 +1686,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 113
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 114
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1742,7 +1742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 490.577, y: -334.18896}
+  m_AnchoredPosition: {x: 613.25, y: -283}
   m_SizeDelta: {x: 159.409, y: 97.4658}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733259279
@@ -1784,7 +1784,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 733259280}
   m_OnClick:
     m_PersistentCalls:
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9245283, g: 0.8337168, b: 0.3270737, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1962,8 +1962,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -470, y: 22}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -346.75, y: 160.65}
+  m_SizeDelta: {x: 343.83, y: 111.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767141369
 MonoBehaviour:
@@ -2465,12 +2465,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   comentarios:
-
+  - comentario: Yo soy un mejor AMLO
+    usuario: '@Erick'
+    seguidores: 1
+    seguidos: 26
+    siTieneFoto: 0
+    siEsBot: 1
+    ultimoComentario1: {fileID: 21300000, guid: 764264157fa863346931ebc0bc4b6970, type: 3}
+    ultimoComentario2: {fileID: 21300000, guid: 12d4b02add8663a48aa7a34f913e4cbd, type: 3}
+    ultimoComentario3: {fileID: 21300000, guid: c458bd9a1829e9c489b6dbb508827106, type: 3}
+    fotoDePerfil: {fileID: 21300000, guid: 1591586fb7122224eb4f7317d8afd381, type: 3}
   - comentario: "Yo no entiendo muy bien porque el odio?? Es un presidente que no
       roba que se preocupa por los pobres y que trata que el pa\xEDs mejore. Ya lo
       que digan los odiadores es otra cosa, pero en general es lo que a hecho. No
       entiendo el odio, en serio..."
-
     usuario: 'Darius @PaleRock '
     seguidores: 276
     seguidos: 669
@@ -2836,7 +2844,7 @@ MonoBehaviour:
     ultimoComentario1: {fileID: 21300000, guid: c48e856535441f446bd8f1dd7d2c618f, type: 3}
     ultimoComentario2: {fileID: 21300000, guid: 540ef44ad3220094abe9f4f91f41ef23, type: 3}
     ultimoComentario3: {fileID: 21300000, guid: 9e5a7d366cf3f8149820532384c45eab, type: 3}
-    fotoDePerfil: {fileID: 21300000, guid: 266edbfaaacc82740a2e953e3b1d249e, type: 3
+    fotoDePerfil: {fileID: 21300000, guid: 266edbfaaacc82740a2e953e3b1d249e, type: 3}
   currentUsuario:
     comentario: 
     usuario: 
@@ -2851,6 +2859,7 @@ MonoBehaviour:
   recorrido1: {fileID: 587653206}
   comentario: {fileID: 720446294}
   puntaje: {fileID: 647572972}
+  botonDePistas: {fileID: 733259279}
 --- !u!4 &943830985
 Transform:
   m_ObjectHideFlags: 0
@@ -16874,7 +16883,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 50
   m_Viewport: {fileID: 437041834}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1231990743}

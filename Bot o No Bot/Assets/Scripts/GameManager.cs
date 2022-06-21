@@ -9,8 +9,9 @@ public class GameManager : MonoBehaviour
     public Usuario currentUsuario;
     public recorrido recorrido1;
     public Text comentario, puntaje;
+    public Button botonDePistas;
     private int comentarioActual, contadorJugador=0, contadorBot=0;
-    private int puntosJugador=0, puntosBot=0;
+    private int puntosJugador=0, puntosBot=0, turnosCorrectos=0;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,6 @@ public class GameManager : MonoBehaviour
         RandomEleccion();
         
         puntaje.text = "Jugador: " + puntosJugador.ToString() + "\r\nBot: " + puntosBot.ToString();
-
     }
 
     // Update is called once per frame
@@ -34,14 +34,14 @@ public class GameManager : MonoBehaviour
         Debug.Log("Elección random");
         comentario.text = currentUsuario.comentario;
 
-        return currentUsuario;
-        
+        if (turnosCorrectos >= 2)
+            botonDePistas.interactable = true;
+
+        return currentUsuario;   
     }
 
     public void ChecadorRespuesta(int eleccion)
-    {
-
-        
+    {   
         if(currentUsuario.siEsBot && eleccion == 1 )
         {
             Debug.Log("Es bot");
@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
             recorrido1.bottom();
             puntosJugador += 10;
             contadorJugador++;
+            turnosCorrectos++;
             
             if (contadorJugador >= 2)
             {
@@ -59,12 +60,14 @@ public class GameManager : MonoBehaviour
                 puntosJugador += 10;
             }
         }
+
         else if(!currentUsuario.siEsBot && eleccion == 0)
         {
             Debug.Log("No es bot");
             Debug.Log("Punto para el jugador");
             recorrido1.bottom();
-            
+            turnosCorrectos++;
+
             contadorJugador++;
             if(contadorJugador>=2)
             {
@@ -75,12 +78,16 @@ public class GameManager : MonoBehaviour
                 puntosJugador += 10;
             }
         }
+
         else
         {
             Debug.Log("Punto para el bot");
             recorrido1.npcbottom();
             contadorJugador = 0;
             contadorBot++;
+            turnosCorrectos = 0;
+            botonDePistas.interactable = false;
+
             if (contadorBot >= 2)
             {
                 puntosBot += 20;
