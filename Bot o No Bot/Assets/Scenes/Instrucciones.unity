@@ -1038,7 +1038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: -78}
+  m_AnchoredPosition: {x: -16, y: -44}
   m_SizeDelta: {x: 385.2625, y: 472.3982}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537914506
@@ -1061,16 +1061,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'El juego te presentara una cadena de odio o de amor a AMLO y la 4T.
+  m_text: 'El juego te presentara una cadena de odio o de amor a AMLO y la 4T. Debes
+    de seleccionar si el comentario es de un Bot o un humano.
 
 
-    El
-    juego termina cuando uno de los contrincantes llega a la casilla.
+    El juego termina
+    cuando uno de los contrincantes llega a la casilla.
 
 
-    En caso
-    de que se responda correctamente de manera consecutiva, se obtendran puntos adicionales
-    durante la racha.
+    En caso de que se responda
+    correctamente de manera consecutiva, se obtendran puntos adicionales durante
+    la racha.
 
 
     En caso de que respondan incorrectamente de manera consecutiva,
@@ -1259,6 +1260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c4cfd17f32974e4db404c7363caa099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!4 &1962404079
 Transform:
   m_ObjectHideFlags: 0
