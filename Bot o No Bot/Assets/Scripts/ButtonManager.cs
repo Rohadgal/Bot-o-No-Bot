@@ -20,7 +20,7 @@ public class ButtonManager : MonoBehaviour
 
     public void BotonJuego()
     {
-        SceneManager.LoadScene("Juego");
+        SceneManager.LoadScene("Partida");
     }
     public void BotonInstrucciones()
     {
@@ -33,7 +33,7 @@ public class ButtonManager : MonoBehaviour
 
     public void BotonVolver()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Main Menu");
     }
     public void Salir()
     {
