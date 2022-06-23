@@ -908,9 +908,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c3cc6fc70a49dc4ea0cfdf4aeb49cd3, type: 3}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
@@ -1412,9 +1412,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c3cc6fc70a49dc4ea0cfdf4aeb49cd3, type: 3}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
@@ -1895,6 +1895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d6e7c9088f7964891064bed86ffeeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 943830984}
   Casillas:
   - {fileID: 1999222558}
   - {fileID: 953337481}
@@ -2514,9 +2515,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c3cc6fc70a49dc4ea0cfdf4aeb49cd3, type: 3}
     m_FontSize: 113
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 114
@@ -3997,6 +3998,8 @@ MonoBehaviour:
   comentario: {fileID: 720446294}
   puntaje: {fileID: 647572972}
   botonDePistas: {fileID: 733259279}
+  botonNoBot: {fileID: 129878023}
+  botonBot: {fileID: 767141369}
 --- !u!4 &943830985
 Transform:
   m_ObjectHideFlags: 0
@@ -15797,9 +15800,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 0c3cc6fc70a49dc4ea0cfdf4aeb49cd3, type: 3}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
