@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public Usuario currentUsuario;
     public recorrido recorrido1;
     public Text comentario, puntaje;
-    public Button botonDePistas;
+    public Button botonDePistas, botonNoBot, botonBot;
     private int comentarioActual, contadorJugador=0, contadorBot=0;
     private int puntosJugador=0, puntosBot=0, turnosCorrectos=0;
 
@@ -41,13 +41,14 @@ public class GameManager : MonoBehaviour
     }
 
     public void ChecadorRespuesta(int eleccion)
-    {   
-        if(currentUsuario.siEsBot && eleccion == 1 )
+    {
+        StartCoroutine(ExampleCoroutine());
+
+        if (currentUsuario.siEsBot && eleccion == 1 )
         {
             Debug.Log("Es bot");
             Debug.Log("Punto a favor para jugador");
             recorrido1.bottom();
-            puntosJugador += 10;
             contadorJugador++;
             turnosCorrectos++;
             
@@ -103,5 +104,16 @@ public class GameManager : MonoBehaviour
         comentarios.RemoveAt(comentarioActual);
         RandomEleccion();
         
+    }
+
+    IEnumerator ExampleCoroutine()
+    {
+        botonBot.interactable = false;
+        botonNoBot.interactable = false;
+
+        yield return new WaitForSeconds(0.5f);
+
+        botonBot.interactable = true;
+        botonNoBot.interactable = true;
     }
 }

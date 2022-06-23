@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class recorrido : MonoBehaviour
 {
-
+    public GameManager gameManager;
     public Transform[] Casillas;
     public int index;
     public int index2;
